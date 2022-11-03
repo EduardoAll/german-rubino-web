@@ -1,0 +1,51 @@
+.info-container{
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  color: black;
+  margin-bottom: 100vh;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.info > h2 {
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 40px;
+}
+
+.info > h3 {
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 40px;
+}
+
+
+@media screen and (max-width:480px) {
+  .info-container{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    color: black;
+    margin-bottom: 100vh;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:390px) {
+  .info > h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-height:700px) {
+  .info-container {
+    height: 20vh;
+  }
+}

@@ -1,0 +1,29 @@
+
+.mail-container{
+  display: flex;
+  background-color: black;
+  height: 35rem;
+  width: 25rem;
+  padding-top: 0;
+  padding-bottom: 4em;
+  align-self: center;
+
+}
+
+.recuadro{
+  border-radius: 4%;
+
+}
+
+@media screen and (max-width:480px) {
+  .recuadro {
+    border-radius: 4%;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .mail-container {
+    padding-top: 4em;
+  }
+
+}

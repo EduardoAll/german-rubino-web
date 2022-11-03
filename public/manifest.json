@@ -1,0 +1,28 @@
+{
+    "background_color": "#000000",
+    "categories": ["music", "guitar", "singer", "band", "rock"],
+    "description": "Página web oficial del músico y compositor Germán Rubino.",
+    "dir": "ltr",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "id": "/v1",
+    "lang": "es-ES",
+    "name": "Germán Rubino web page",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Germán Rubino",
+    "start_url": "/",
+    "theme_color": "#000000"
+} 

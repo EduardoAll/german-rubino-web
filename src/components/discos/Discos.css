@@ -1,0 +1,277 @@
+
+.albums-container > h2 {
+  display: flex;
+  color: white;
+  margin-left: 1rem;
+  text-align: center;
+  width: 40%;
+  padding-top: 35vh;
+}
+
+.ep-container > h2 {
+  display: flex;
+  color: black;
+  margin-left: 1rem;
+  text-align: center;
+  width: 40%;
+  padding-top: 35vh;
+
+}
+
+.singles-container > h2 {
+  display: flex;
+  color: white;
+  margin-left: 1rem;
+  text-align: center;
+  width: 40%;
+  padding-top: 35vh;
+}
+
+
+
+.albums-container {
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+.albums {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.ep-container {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+
+
+.eps {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 5rem;
+
+}
+
+.singles {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.singles-container {
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+
+.item {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.singles-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.singles-container::-webkit-scrollbar-button:increment,.singles-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.singles-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.singles-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.singles-container::-webkit-scrollbar-thumb {
+    background-color: #C5C5C5;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.singles-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+
+.albums-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.albums-container::-webkit-scrollbar-button:increment,.albums-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.albums-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.albums-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.albums-container::-webkit-scrollbar-thumb {
+    background-color: #C5C5C5;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.albums-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+
+.ep-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.ep-container::-webkit-scrollbar-button:increment,.ep-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.ep-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.ep-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.ep-container::-webkit-scrollbar-thumb {
+    background-color: #C5C5C5;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.ep-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+  .albums-container {
+    height: 75vh;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .albums-container > h2 {
+    padding-top: 33vh;
+    font-size: 35px;
+  }
+
+  .albums-container > .albums {
+    margin-left: 1rem;
+  }
+
+
+  .ep-container {
+    height: 75vh;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .ep-container > h2 {
+    padding-top: 33vh;
+    font-size: 35px;
+  }
+
+  .ep-container > .eps {
+    margin-left: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .singles-container {
+    height: 75vh;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .singles-container > h2 {
+    padding-top: 33vh;
+    font-size: 35px;
+  }
+
+  .item {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: auto;
+    padding-bottom: auto;
+
+  }
+
+}
+
+
+
+
+@media screen and (orientation:landscape) and (max-width:960px)  {
+  .albums-container {
+    height: 140vh;
+  }
+  .ep-container {
+    height: 145vh;
+  }
+  .singles-container {
+    height: 140vh;
+  }
+}
+
+@media screen and (min-width:646px) and (max-width:960px) and (min-height:500px) {
+  .albums-container {
+    height: 90vh;
+  }
+  .ep-container {
+    height: 90vh;
+  }
+  .singles-container {
+    height: 90vh;
+  }
+}
+
+@media screen and (min-height:700px) {
+  .albums-container {
+    height: 60vh;
+  }
+  .ep-container {
+    height: 60vh;
+  }
+  .singles-container {
+    height: 60vh;
+  }
+}

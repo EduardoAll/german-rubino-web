@@ -1,0 +1,121 @@
+.item{
+  height: 35rem;
+  min-width: 30rem;
+  padding: 2rem;
+}
+
+.item > img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+
+.slider{
+  display: flex;
+  cursor: grab;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.slider-container{
+  display: flex;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: black;
+  vertical-align: center;
+  align-items: center;
+  padding: .3rem 0 .3rem 0;
+}
+
+.slider-container > h2 {
+  color: white;
+  width: 40%;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 1rem 0 1rem;
+
+}
+
+
+.fechas-confirmadas {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  margin: 0;
+  margin-right: 0;
+  align-items: center;
+  padding-right: 2em;
+
+}
+
+.fechas-confirmadas > .contenedor-fecha {
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-right: .5em;
+  border-radius: 3%;
+  height: 30vh;
+  width: 30vw;
+  flex-direction: column;
+}
+
+.fechas-confirmadas > .contenedor-fecha > h3 {
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+
+
+.fechas-confirmadas > .contenedor-fecha > p {
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fechas-confirmadas > .contenedor-fecha > .info {
+  margin: 0;
+}
+
+.fechas-confirmadas > h2 {
+  font-size: 40px;
+}
+
+
+@media screen and (max-width:480px) {
+  .fechas-confirmadas {
+    display: flex;
+    height: 140vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 0em;
+  }
+
+  .fechas-confirmadas > .contenedor-fecha {
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3%;
+    height: 30vh;
+    width: 80vw;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (orientation:landscape) and (max-width:960px)  {
+  .fechas-confirmadas > .contenedor-fecha > p {
+    font-size: 15px;
+  }
+}
