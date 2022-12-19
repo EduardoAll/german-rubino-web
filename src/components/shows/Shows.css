@@ -1,3 +1,7 @@
+.main-container {
+  overflow-x: hidden;
+}
+
 .item{
   height: 35rem;
   min-width: 30rem;

@@ -30,7 +30,9 @@ const Discos = () => {
           <a href='https://www.youtube.com/watch?v=3OeaXxSq1jY&ab_channel=Germ%C3%A1nRubino' target='blank_' rel='noreferrer'>
             <img src={relatos} alt='' className='item' />
           </a>
+          <a href='https://www.youtube.com/watch?v=2zX4RTuH2c0&ab_channel=Germ%C3%A1nRubino' target='blank_' rel='noreferrer'>
             <img src={neo1} alt='' className='item' />
+          </a>  
             <img src={neo2} alt='' className='item' />
         </div>
       </div>

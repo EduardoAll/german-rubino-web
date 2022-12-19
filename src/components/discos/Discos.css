@@ -1,3 +1,6 @@
+.contenedor {
+  overflow-x: hidden;
+}
 
 .albums-container > h2 {
   display: flex;
